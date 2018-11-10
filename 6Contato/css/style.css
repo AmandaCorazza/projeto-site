@@ -1,0 +1,164 @@
+
+* {
+    margin: 0%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;    
+}
+
+a {
+    text-decoration: none;
+    color: #141f45;
+}
+
+nav {
+    display: flex;
+    margin: 30px 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.ul-nav {
+    display: flex;
+    list-style: none;
+    margin: 25px 0 0 600px;
+    color: #141f45;
+}
+
+.ul-nav li {
+    padding: 0 15px;
+    list-style: none;
+}
+
+.logo0 {
+    margin: 25px 25px;
+}
+
+.background-color {
+    background-color: #F5F5F5;
+}
+
+.listas {
+    display: flex;
+}
+
+h1 {
+    padding: 90px 0 20px 80px;
+    font-size: 35px;
+    color: #141f45;
+}
+
+hr {
+    margin: 5px 80px;
+}
+
+ul li {
+    list-style: none;
+}
+
+footer {
+    background-color: #FFD700;
+    display: flex;
+    padding: 30px 50px;
+    color: #141f45;
+}
+
+.footer-left {
+    padding: 10px 25px;
+}
+
+.footer-center {
+    padding: 10px 25px;
+}
+
+.footer-right {
+    padding: 10px 25px;
+}
+
+.lista01 {
+    padding: 40px 40px;
+}
+
+.lista02 {
+    padding: 40px 100px;
+}
+
+p {
+    padding: 0 0 20px 0;
+    font-size: 18px; 
+}
+
+.formulario {
+    padding: 40px 80px;
+    background-color: #F5F5F5;
+}
+
+.form-edit, textarea {
+    display: block;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+.name-edit {
+    padding: 5px 0;
+}
+
+.enviar {
+    margin: 10px 0;
+    padding: 3px 10px;
+}
+
+@media (max-width: 1024px) {
+    .ul-nav {
+    margin: 25px 0 0 300px;
+    }
+    .logo0 {
+    margin: 25px 12px;
+    }
+}    
+
+@media (max-width: 768px) {
+    .ul-nav {
+    margin: 25px 0 0 100px;
+    }
+    footer {
+    padding: 30px 0px;   
+    }
+}
+
+@media (max-width: 414px) {
+    .ul-nav {
+    display: block;
+    margin: 25px 0 0 15px;
+    }
+    .logo0 {
+    margin: 25px 34px;
+    }
+    .listas {
+    display: block;
+    }
+    .lista02 {
+    padding: 0px 40px;
+    }
+    footer {
+    display: block;
+    padding: 30px 0px;
+    }
+    .footer-left {
+    padding: 15px 25px;
+    }
+    .footer-center {
+    padding: 15px 25px;
+    }
+    .logo {
+    margin: 25px 15px;
+    }
+    .footer-right {
+    padding: 10px 86px;
+    }
+}

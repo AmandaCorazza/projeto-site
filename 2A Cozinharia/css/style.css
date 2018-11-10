@@ -1,0 +1,260 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin: 40px 15px;
+    color: #141F45;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ol li {
+    padding: 0 20px;
+}
+
+.ul-nav {
+    justify-content: flex-end;
+    margin: 5px 0 5px 600px;
+}
+
+nav {
+    display: flex;
+    padding: 30px 35px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+p {
+    color: gray;
+}
+
+.home {
+    padding: 0 15px;
+}
+
+.a-cozinharia {
+    padding: 0 15px;
+}
+
+.cardapio {
+    padding: 0 15px;
+}
+
+.eventos {
+    padding: 0 15px;
+}
+
+.contatos {
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #141F45;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 25px 60px;
+    padding: 80px 0 0 0;
+    color: #141F45;
+}
+
+hr {
+    margin: 0 60px;
+}
+
+h3 {
+    color: #141F45;
+}
+
+h4 {
+    color: #141f45;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+ul {
+    line-height: 30px;
+    color: #141F45;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+.lista-horario {
+    list-style: none;
+}
+
+.side-by-side {
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.ambiente {
+    margin: 50px 55px;
+    line-height: 28px;
+}
+
+.horario {
+    margin: 50px 55px;
+}
+
+.playground {
+    margin: 50px 55px;
+    line-height: 28px 
+}
+
+.horta {
+    margin: 50px 55px;
+    line-height: 28px
+}
+
+.img-prato {
+    margin: 220px 45px 0 5px;
+    height: 325px;
+    width: 525px;
+}
+
+.img-tomate {
+    margin: 0 45px 100px 5px;
+    height: 325px;
+    width: 525px;
+}
+
+.galeria {
+    background-color: white;
+    padding: 30px 40px 120px 100px;
+}
+
+.galeria-2 {
+    display: flex;
+}
+
+.img00 {
+    height: 120px;
+    width: 185px;
+}
+
+footer {
+    display: flex;
+    background-color: #FFD700;
+    padding: 50px 100px;
+}
+
+.footer-left {
+    padding: 05px 30px;
+    color: #141f45;
+}
+
+.footer-center {
+    padding: 05px 30px;
+    color: #141f45;
+}
+
+.footer-right {
+    padding: 05px 30px;
+}
+
+.footer-ul {
+    list-style: none;
+}
+
+.logo {
+    padding: 0 15px;
+}
+
+@media (max-width: 1024px) {
+    .ul-nav {
+    margin: 5px 0 5px 300px;
+    }
+    .galeria {
+    padding: 30px 40px 50px 10px;
+    }
+    .img00 {
+    height: 120px;
+    width: 167px;
+    }
+    footer {
+    display: flex;
+    padding: 50px 05px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ul-nav {
+    margin: 5px 0 5px 50px;
+    }
+    .side-by-side {
+    display: block;
+    }
+    .img-prato {
+    margin: 20px 0 0 113px;
+    }
+    .img-tomate {
+    margin: 10px 0 100px 113px;
+    }
+    .img00 {
+    height: 100px;
+    width: 125px;
+    }
+}
+@media (max-width: 414px) {
+    .ul-nav {
+    display: block;
+    }
+    .ul-nav {
+    margin: 5px 0 5px 100px;
+    }
+    ol li {
+    padding: 0 15px;
+    }
+    .img-prato {
+    margin: 20px 0 0 48px;
+    height: 224px;
+    width: 326px;
+    }
+    .img-tomate {
+    margin: 10px 0 100px 48px;
+    height: 224px;
+    width: 326px;
+    }
+    h4 {
+    padding: 10px 97px;
+    }
+    .galeria-2 {
+    display: block;
+    margin: 10px 70px;
+    }
+    .img00 {
+    height: 150px;
+    width: 246px;
+    }
+    footer {
+    display: block;  
+    }
+    .footer-left {
+    padding: 15px 30px; 
+    }
+    .footer-center {
+    padding: 10px 30px; 
+    }
+    .footer-right {
+    padding: 15px 67px;
+    }   
+}

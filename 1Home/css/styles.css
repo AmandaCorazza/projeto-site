@@ -1,0 +1,442 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;    
+    color: #141f45;
+}
+
+a {
+    text-decoration: none;
+    color: #141f45;
+}
+
+nav {
+    display: flex;
+    padding: 30px 35px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 50px 0 0 500px;
+    color: #141f45;
+    font-size: 18px;
+}
+
+.nav li {
+    padding: 0 15px;
+    list-style: none;
+}
+
+img.logo {
+    margin: 50px;
+    height: 30px
+}
+
+img.banner {
+    height: 630;
+    width: 100%
+}
+
+h1 {
+    position: absolute; 
+    margin: 0 100px;
+    top: 50%;
+    font-size: 45px;
+}
+
+.adress {
+    margin: 20px 100px;
+    position: absolute; 
+    top: 65%;
+}
+
+.links {
+    font-size: 18px;
+    position: absolute; 
+    top: 80%;
+    margin: 20px 100px;
+    display: flex;
+}
+
+.como-chegar {
+    padding: 05px 35px 05px 05px;
+    border: 1px black;
+}
+
+.cardapio {
+    padding: 05px 35px 10px 10px;
+    border: 1px black;
+}
+
+a.section-link { 
+    border: 2px black; 
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.prato {
+    height: 400px;
+}
+
+.casamento {
+    height: 400px;
+}
+
+.casamentos-botao {
+    margin: 5px;
+}
+
+.empresariais-botao {
+    margin: 5px;
+}
+
+.article1 {
+    display: flex;
+}  
+
+.article1-left {
+    margin: 100px 70px;
+    line-height: 25px;
+}
+
+.a-cozinharia {
+    padding: 20px 0;
+}
+
+.a-cozinharia-p {
+    padding: 20px 0;
+}
+
+.sobre-a-cozinharia {
+    line-height: 80px;
+    background-color: #FFD700;
+    padding: 25px;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.article1-right {
+    padding: 90px 80px;
+}
+
+.article2 {
+    display: flex;
+}
+
+.article2-left {
+    margin: 50px 50px;
+} 
+
+.article2-left-p {
+    margin: 0 30px;
+}
+
+.links-2 {
+    display: flex;
+    line-height: 78px;
+}
+
+.eventos {
+    padding: 10px 0;
+}
+
+figure {
+    background-color: #FFD700;
+    text-align: center;
+}
+
+.p-figure {
+    padding: 85px 25px 0 0;
+    color: #141f45;
+    font-size: 32px;
+}
+
+.hr-figure {
+    margin: 15px 600px
+}
+
+.imagens1-6 {
+    padding: 40px 20px 60px 120px;
+}
+
+.imagens1-3 {
+    display: flex
+}
+
+
+.imagens3-6 {
+    display: flex
+}
+
+.img {
+    background-color: white;
+    padding: 0 0 20px 0;
+}
+
+.img00 {
+    width: 360px;    
+    height: 200px;
+} 
+
+.img001 {
+    width: 550px;    
+    height: 350px;
+}
+   
+.p-img {
+    text-align: left;
+    color: gray;
+    padding: 10px 0 0 13px;
+    font-size: 16px;
+}
+
+.cardapio-completo-botao {
+    padding: 80px 35px 150px 0;
+    margin: solid 2px #141f45;
+    font-size: 20px;
+}
+
+.article2-right {
+    padding: 50px 70px;
+}
+
+.article2-p {
+    padding: 20px 0px;
+    line-height: 25px;
+}
+
+.casamentos-link {
+    padding: 25px;
+    font-size: 18px;
+    background-color: #FFD700;
+}
+
+.empresariais-link {
+    padding: 25px;
+    font-size: 18px;
+    background-color: #FFD700;
+}
+
+footer {
+    display: flex;
+    background-color: #FFD700;
+    padding: 50px 100px;
+}
+
+.footer-left {
+    padding: 05px 30px;
+    color: #141f45;
+}
+
+.footer-center {
+    padding: 05px 30px;
+    color: #141f45;
+}
+
+.footer-right {
+    padding: 05px 30px;
+}
+
+.footer-ul {
+    list-style: none;
+}
+
+.logo-icone {
+    padding: 0 15px;
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        margin: 50px 0 0 100px;
+    }
+    h1 {
+        top: 30%;
+    }
+    .adress {
+        top: 35%;
+    }
+    .links {
+        top: 40%;
+    }
+    .sobre-a-cozinharia {
+        padding: 13px;
+    }
+    .article1-left {
+        margin: 100px 10px 15px 20px;
+    }
+    .hr-figure {
+        margin: 15px 450px;
+    }
+    .img00 {
+    width: 280px;
+    height: 200px;
+
+    .imagens1-6 {
+    padding: 40px 20px 60px 100px;
+    }
+    .article2-right {
+    padding: 50px 30px;
+    }
+    .article2-left {
+    margin: 50px 30px;
+    }
+    .casamentos-botao {
+        margin: 5px 18px 0 0;
+    }
+    .empresariais-link {
+    padding: 20px;
+    }
+    .casamentos-link {
+    padding: 20px;    
+    }
+    .logo-icone {
+    padding: 0 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+    margin: 50px 0 0 0px;
+    }  
+    .nav li {
+    padding: 0 15px;
+    list-style: none;
+    font-size: 14;
+    }
+    h1 {
+    font-size: 35px;
+    }
+    .article1-left {
+    margin: 50px 10px 15px 20px;
+    }
+    h2 {
+    font-size: 20px;
+    }
+    .sobre-a-cozinharia {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .img001 {
+        width: 450px;
+        height: 350px;
+    }
+    .img002 {
+    width: 450px;
+    height: 350px;
+    }
+    .hr-figure {
+        margin: 15px 320px;
+    }
+    .imagens1-6 {
+    padding: 40px 20px 60px 5px;
+    }
+    .img00 {
+    width: 252px;
+    height: 200px;
+    }
+    .article2-right {
+    padding: 50px 5px 50px 20px;
+    }
+    .article2-left {
+    margin: 40px 20px;
+    }
+    .casamentos-link {
+    padding: 20px;
+    font-size: 12px; 
+    }
+    .empresariais-link {
+    padding: 20px;
+    font-size: 12px; 
+    }
+    .footer-left {
+    padding: 05px 0px; 
+    }
+    footer {
+    padding: 50px 50px;
+    }  
+} 
+
+@media (max-width: 414px){
+    nav {
+    padding: 0px 0px;
+    }
+    .nav {
+    display: block;
+    line-height: 2; 
+    }
+    .nav {
+    margin: 22px 0 0 0px;
+    }
+    h1 {
+    font-size: 25px;
+    margin: 0 50px;
+    }
+    .adress {
+    top: 42%;
+    margin: 20px 50px;
+    }
+    .links {
+    top: 60%;
+    margin: 20px 50px;
+    }
+    .article1 {
+    display: block;
+    }
+    .img001 {
+    width: 350px;
+    height: 300px;
+    }
+    .article1-right {
+    padding: 70px 33px;
+    }
+    .hr-figure {
+    margin: 15px 140px;
+    }
+    .imagens1-3 {
+    display: block;
+    }
+    .imagens3-6 {
+    display: block;
+    }
+    .imagens1-6 {
+    padding: 40px 5px 60px 5px;
+    }
+    .cardapio-completo-botao {
+    padding: 50px 35px 90px 0;  
+    }
+    .article2 {
+    display: block;
+    }
+    .img002 {
+    width: 350px;
+    height: 300px;
+    }
+    .article2-right {
+    padding: 50px 5px 50px 33px;
+    }
+    footer {
+    padding: 50px 50px;
+    }
+    .footer-left {
+    padding: 20px 0px;
+    }
+    .footer-center {
+    padding: 20px 0px;
+    }
+    .footer-right {
+    padding: 15px 30px;
+    }
+}
+
+
